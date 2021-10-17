@@ -1,0 +1,67 @@
+* {
+    z-index: 10;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.startingText {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.games {
+    position: absolute;
+    padding: 5%;
+    top: 70%;
+}
+
+td {
+    text-align: center;
+}
+
+h2 {
+    font-size: 500%;
+    display: flex;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+h3 {
+    font-size: 150%;
+    text-shadow: 2px 2px 3px black;
+}
+
+p {
+    position: absolute;
+    font-size: 150%;
+}
+
+p.openingText {
+    top: 10%;
+    left:50%;
+    width: 45%;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px Dimgray;
+    word-wrap: break-word;
+}
+
+p.gameText {
+    top: 130%;
+    left: 10%;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px black;
+    word-wrap: normal;
+}
+
+table.gameList {
+    position: absolute;
+    left: 130%;
+}
