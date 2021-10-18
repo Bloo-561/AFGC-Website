@@ -43,7 +43,7 @@ p {
 }
 
 p.openingText {
-    top: 10%;
+    top: 20%;
     left:50%;
     width: 45%;
     font-weight: bold;
@@ -52,16 +52,17 @@ p.openingText {
 }
 
 p.gameText {
-    top: 130%;
+    top: 50%;
     left: 10%;
     color: white;
-    width: 100%;
+    width: 50%;
     font-weight: bold;
     text-shadow: 2px 2px 3px black;
     word-wrap: normal;
 }
 
 table.gameList {
-    position: absolute;
-    left: 130%;
+    position: relative;
+    left: 80%;
+    width: 60%;
 }

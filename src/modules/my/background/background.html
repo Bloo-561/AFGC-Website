@@ -3,13 +3,18 @@
 
     <template if:true={songStatus}>
         <iframe id="myMusic" style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/FMO41NFdCkI?rel=0&autoplay=1&loop=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Sorry, your browser doesn't support embedded videos.</iframe>
-        <h2 style="color: white;">Song: Street Fighter: Guile's Theme ▸ DeFalco Trip Hop Remix</h2>
-        <h3 style="color: white;">Mastered by Dj CUTMAN</h3>
+        <lightning-card title="Now Playing">
+            <p>Song: Street Fighter: Guile's Theme ▸ DeFalco Trip Hop Remix</p>
+            <p slot="footer">Mastered by Dj CUTMAN</p>
+        </lightning-card>
+        <br>
     </template>
 
     <template if:false={songStatus}>
         <h3 style="color: white;">Click the button below to play some music</h3>
     </template>
+
+
 
     <lightning-button label="Mute/UnMute Song" onclick={muteSong}></lightning-button>
 

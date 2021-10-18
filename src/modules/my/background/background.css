@@ -20,6 +20,10 @@ h3 {
     padding: 1%;
 }
 
+lightning-button {
+    padding: 1%;
+}
+
 lightning-progress-bar {
     left: 20%;
 }
