@@ -12,9 +12,15 @@ video {
 
 h2 {
     text-transform: uppercase;
+    padding: 1%;
 }
 
 h3 {
     text-transform: uppercase;
+    padding: 1%;
+}
+
+lightning-progress-bar {
+    left: 20%;
 }
 
